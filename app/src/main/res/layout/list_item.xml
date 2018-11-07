@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    style="@style/cardView"
+    app:cardCornerRadius="@dimen/cardViewCornerRadius"
+    tools:ignore="UnusedAttribute">
+
+    <android.support.constraint.ConstraintLayout
+        style="@style/listItemConstraintLayout">
+
+        <ImageView
+            android:id="@+id/place_image_view"
+            style="@style/placeImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/placeImage" />
+
+        <TextView
+            android:id="@+id/name_text_view"
+            style="@style/placeName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/place_image_view"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Aro Palace" />
+
+        <TextView
+            android:id="@+id/rating_text_view"
+            style="@style/ratingText"
+            app:layout_constraintStart_toEndOf="@+id/place_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/name_text_view"
+            tools:text="4.5" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:numStars="5"
+            android:stepSize="0.1"
+            app:layout_constraintStart_toEndOf="@+id/rating_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/name_text_view"
+            tools:rating="2.5" />
+
+        <ImageView
+            android:id="@+id/place_icon"
+            style="@style/locationIcon"
+            android:src="@drawable/ic_place"
+            app:layout_constraintEnd_toStartOf="@+id/address_text_view"
+            app:layout_constraintStart_toEndOf="@+id/place_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/rating_text_view"
+            android:contentDescription="@string/locationIcon"/>
+
+        <TextView
+            android:id="@+id/address_text_view"
+            style="@style/addressText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/place_icon"
+            app:layout_constraintTop_toBottomOf="@+id/rating_text_view"
+            tools:text="Bulevardul Eroilor 27" />
+
+        <ImageView
+            android:id="@+id/web_icon"
+            style="@style/webIcon"
+            android:src="@drawable/ic_computer"
+            app:layout_constraintStart_toEndOf="@+id/place_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/place_icon"
+            android:contentDescription="@string/webIcon" />
+
+        <TextView
+            android:id="@+id/web_text_view"
+            style="@style/webText"
+            app:layout_constraintStart_toEndOf="@+id/web_icon"
+            app:layout_constraintTop_toBottomOf="@+id/address_text_view" />
+
+
+        <com.ms.square.android.expandabletextview.ExpandableTextView
+            android:id="@+id/description_expandable_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            expandableTextView:animAlphaStart="1"
+            expandableTextView:maxCollapsedLines="1"
+            expandableTextView:animDuration="200"
+            android:layout_below="@id/place_image_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/place_image_view">
+
+            <TextView
+                android:id="@+id/expandable_text"
+                style="@style/placeDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"/>
+
+            <ImageButton
+                android:id="@+id/expand_collapse"
+                style="@style/upDownArrowButton"
+                android:background="@android:color/transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/upDownArrow" />
+
+        </com.ms.square.android.expandabletextview.ExpandableTextView>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

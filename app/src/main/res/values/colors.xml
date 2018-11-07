@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b71c1c</color>
+    <color name="colorPrimaryDark">#7f0000</color>
+    <color name="colorAccent">#f05545</color>
+
+    <color name="tabIndicator">#D7CCC8</color>
+    <color name="tabText">#D7CCC8</color>
+
+    <color name="fragmentBackground">#BCAAA4</color>
+    <color name="cardViewBackground">#D7CCC8</color>
+</resources>

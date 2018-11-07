@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardViewCornerRadius">10dp</dimen>
+    <dimen name="rightLeftImageViewWidth">20dp</dimen>
+    <dimen name="recycleViewWidth">0dp</dimen>
+    <dimen name="recycleViewMarginBottom">8dp</dimen>
+    <dimen name="hikingCardViewPaddingTop">16dp</dimen>
+    <dimen name="placeImageWidthAndHeight">130dp</dimen>
+    <dimen name="placeImageMarginStartAndTop">8dp</dimen>
+    <dimen name="placeNameMarginTopStartEnd">8dp</dimen>
+    <dimen name="placeNameTextSize">18sp</dimen>
+    <dimen name="placeWebAddressMarginStartTop">8dp</dimen>
+    <dimen name="placeDescriptionMargin">8dp</dimen>
+    <dimen name="arrowButtonWidthHeight">28dp</dimen>
+    <dimen name="arrowButtonMarginBottomEnd">8dp</dimen>
+    <dimen name="cardViewMarginStartEnd">16dp</dimen>
+    <dimen name="cardViewMarginTopBottom">8dp</dimen>
+    <dimen name="ratingTextMarginTopStart">8dp</dimen>
+    <dimen name="iconWidthAndHeight">22dp</dimen>
+    <dimen name="locationIconMarginTopStartEnd">8dp</dimen>
+    <dimen name="addressTextWidth">160dp</dimen>
+    <dimen name="addressTextHeight">0dp</dimen>
+    <dimen name="addressTextMarginTopStartEnd">8dp</dimen>
+    <dimen name="addressTextSize">16sp</dimen>
+    <dimen name="webIconMarginStartTop">8dp</dimen>
+    <dimen name="webTextMarginStartTop">8dp</dimen>
+    <dimen name="webTextSize">16sp</dimen>
+</resources>

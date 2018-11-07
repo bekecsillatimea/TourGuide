@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/tabIndicator</item>
+        <item name="tabSelectedTextColor">@color/tabText</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/tabText</item>
+    </style>
+    
+    <style name="appBarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/fragmentBackground</item>
+    </style>
+
+    <style name="collapsingToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="arrowImageView">
+        <item name="android:layout_width">@dimen/rightLeftImageViewWidth</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/cardViewBackground</item>
+    </style>
+
+    <style name="recycleView">
+        <item name="android:layout_width">@dimen/recycleViewWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/recycleViewMarginBottom</item>
+    </style>
+
+    <style name="hikingCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/hikingCardViewPaddingTop</item>
+    </style>
+
+    <style name="listItemConstraintLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/cardViewBackground</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+
+    <style name="placeImage">
+        <item name="android:layout_width">@dimen/placeImageWidthAndHeight</item>
+        <item name="android:layout_height">@dimen/placeImageWidthAndHeight</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">@dimen/placeImageMarginStartAndTop</item>
+        <item name="android:layout_marginTop">@dimen/placeImageMarginStartAndTop</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="placeName">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/placeNameMarginTopStartEnd</item>
+        <item name="android:layout_marginStart">@dimen/placeNameMarginTopStartEnd</item>
+        <item name="android:layout_marginTop">@dimen/placeNameMarginTopStartEnd</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/placeNameTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="placeWebAddress">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/placeWebAddressMarginStartTop</item>
+        <item name="android:layout_marginTop">@dimen/placeWebAddressMarginStartTop</item>
+        <item name="android:text">@string/information</item>
+    </style>
+
+    <style name="placeDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_margin">@dimen/placeDescriptionMargin</item>
+    </style>
+    
+    <style name="upDownArrowButton">
+        <item name="android:layout_width">@dimen/arrowButtonWidthHeight</item>
+        <item name="android:layout_height">@dimen/arrowButtonWidthHeight</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginBottom">@dimen/arrowButtonMarginBottomEnd</item>
+        <item name="android:layout_marginEnd">@dimen/arrowButtonMarginBottomEnd</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="cardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/cardViewMarginStartEnd</item>
+        <item name="android:layout_marginStart">@dimen/cardViewMarginStartEnd</item>
+        <item name="android:layout_marginTop">@dimen/cardViewMarginTopBottom</item>
+        <item name="android:layout_marginBottom">@dimen/cardViewMarginTopBottom</item>
+    </style>
+
+    <style name="ratingText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/ratingTextMarginTopStart</item>
+        <item name="android:layout_marginTop">@dimen/ratingTextMarginTopStart</item>
+    </style>
+
+    <style name="locationIcon">
+        <item name="android:layout_width">@dimen/iconWidthAndHeight</item>
+        <item name="android:layout_height">@dimen/iconWidthAndHeight</item>
+        <item name="android:layout_marginStart">@dimen/locationIconMarginTopStartEnd</item>
+        <item name="android:layout_marginEnd">@dimen/locationIconMarginTopStartEnd</item>
+        <item name="android:layout_marginTop">@dimen/locationIconMarginTopStartEnd</item>
+    </style>
+
+    <style name="addressText">
+        <item name="android:layout_width">@dimen/addressTextWidth</item>
+        <item name="android:layout_height">@dimen/addressTextHeight</item>
+        <item name="android:layout_marginEnd">@dimen/addressTextMarginTopStartEnd</item>
+        <item name="android:layout_marginStart">@dimen/addressTextMarginTopStartEnd</item>
+        <item name="android:layout_marginTop">@dimen/addressTextMarginTopStartEnd</item>
+        <item name="android:textSize">@dimen/addressTextSize</item>
+    </style>
+
+    <style name="webIcon">
+        <item name="android:layout_width">@dimen/iconWidthAndHeight</item>
+        <item name="android:layout_height">@dimen/iconWidthAndHeight</item>
+        <item name="android:layout_marginStart">@dimen/webIconMarginStartTop</item>
+        <item name="android:layout_marginTop">@dimen/webIconMarginStartTop</item>
+    </style>
+
+    <style name="webText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/webTextMarginStartTop</item>
+        <item name="android:layout_marginTop">@dimen/webTextMarginStartTop</item>
+        <item name="android:textSize">@dimen/webTextSize</item>
+        <item name="android:text">@string/webSite</item>
+    </style>
+
+</resources>

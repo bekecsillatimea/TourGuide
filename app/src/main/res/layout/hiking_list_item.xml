@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/hikingCardView">
+
+    <android.support.constraint.ConstraintLayout
+        style="@style/listItemConstraintLayout">
+
+        <ImageView
+            android:id="@+id/hiking_place_image_view"
+            style="@style/placeImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/placeImage" />
+
+        <TextView
+            android:id="@+id/hiking_name_text_view"
+            style="@style/placeName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/hiking_place_image_view"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Aro Palace" />
+
+        <TextView
+            android:id="@+id/hiking_web_text_view"
+            style="@style/placeWebAddress"
+            app:layout_constraintStart_toEndOf="@+id/hiking_place_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/hiking_name_text_view" />
+
+        <com.ms.square.android.expandabletextview.ExpandableTextView
+            android:id="@+id/hiking_description_expandable_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            expandableTextView:animAlphaStart="1"
+            expandableTextView:maxCollapsedLines="1"
+            expandableTextView:animDuration="200"
+            android:layout_below="@id/place_image_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hiking_place_image_view">
+
+            <TextView
+                android:id="@+id/expandable_text"
+                style="@style/placeDescription" />
+
+            <ImageButton
+                android:id="@+id/expand_collapse"
+                style="@style/upDownArrowButton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/upDownArrow" />
+
+        </com.ms.square.android.expandabletextview.ExpandableTextView>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

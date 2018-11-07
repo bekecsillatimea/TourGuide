@@ -1,0 +1,426 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <string name="webSite"><u>Website</u></string>
+    <string name="information"><u>Information</u></string>
+    <string name="rightLeftArrow">Indicates that user can scroll in the indicated direction</string>
+    <string name="upDownArrow">Extends and collapses text</string>
+    <string name="placeImage">Image for specific place</string>
+    <string name="locationIcon">Indicates user can open maps for specific place</string>
+    <string name="webIcon">Indicates user can open website of specific place</string>
+
+    <string-array name="ToSleepAroPalace">
+        <item>Aro Palace</item>
+        <item>4.4</item>
+        <item>Bulevardul Eroilor 27</item>
+        <item>https://aro-palace.ro</item>
+        <item><p>Located in the center of the country, Aro - Palace is a recognized leader on the
+            domestic and international tourism market, with accommodation and public catering
+            services at a high - quality standard.</p></item>
+        <item>45.645385, 25.590911</item>
+        <item>https://aro-palace.ro/wp-content/uploads/2015/01/hotel-aro-1.jpg</item>
+    </string-array>
+
+    <string-array name="ToSleepResidenceHirscher">
+        <item>Residence Hirscher</item>
+        <item>4.4</item>
+        <item>Apollonia Hirscher 14</item>
+        <item>http://www.residence-hirscher.eu/</item>
+        <item>Either on business or leisure trip, for one day, one week or more, we invite you to enjoy 
+            the comfort of a modern equipped apartment, situated in the Old Centre of Brasov.</item>
+        <item>45.640472, 25.589936</item>
+        <item>http://residence-hirscher.pe-piata.ro/images/R-H_hirscher.jpg</item>
+    </string-array>
+    
+    <string-array name="ToSleepHotelKolping">
+        <item>Hotel Kolping</item>
+        <item>4.5</item>
+        <item>Petofi Sandor 27</item>
+        <item>http://hotel.kolping.ro/</item>
+        <item>Located at the foot of the Tâmpa Mountain, in the Historic Centre, at a distance of 
+            800m from the Black Church, our hotel is an ideal place for business and leisure 
+            tourism as well.</item>
+        <item>45.634707, 25.586986</item>
+        <item>http://www.brasovhoteluri.ro/wp-content/galerie_foto/hotel-kolping-brasov/hotel-kolping-brasov-7.jpg</item>
+    </string-array>
+    
+    <string-array name="ToSleepBelvedere">
+        <item>Belvedere</item>
+        <item>4.4</item>
+        <item>Stejerisului 11</item>
+        <item>http://hotelbelvederebv.ro/</item>
+        <item>We invite you to spend a few days, choosing between the generous space of an apartment 
+            or the privacy that a standard room will give you with a superb view over the mountains.
+            You will find a tender feeling of comfort and good taste in the interior spaces. The
+            memories of days spent here will make you come back over and over.</item>
+        <item>45.645229, 25.578645</item>
+        <item>http://www.viaromania.eu/pictures/accommodation/images/61/hotel-belvedere-brasov-490.jpg</item>
+    </string-array>
+    
+    <string-array name="ToSleepResidenceAmbient">
+        <item>Residence Ambient</item>
+        <item>3.7</item>
+        <item>Castanilor 3</item>
+        <item>https://www.residenceambient.ro/en/</item>
+        <item>Located very close to historical center of Brasov , Ambient Residence is perfect for 
+            exploring one of Europe’s best preserved medieval cities. With us, you can enjoy a
+            comfortable, modern and cozy rooms in the city at the best Ambient price.</item>
+        <item>45.649003, 25.603929</item>
+        <item>https://media-cdn.tripadvisor.com/media/photo-s/04/b4/ff/09/residence-ambient.jpg</item>
+    </string-array>
+    
+    <string-array name="ToSleepCoroana">
+        <item>Coroana</item>
+        <item>3.8</item>
+        <item>Republicii 62</item>
+        <item>http://aro-palace.ro/hotel-brasov-coroana-en.html</item>
+        <item>Hotel Coroana is one of the architectural jewels of Brasov, being the oldest hotel in 
+            the city, the meeting place of great personalities of the time. Placed on the city’s 
+            famous pedestrian street, the hotel attracts all gazes through the Art Nouveau and
+            Baroque architecture, being a historic monument.Architects Schuller and Goldsmidt were 
+            inspired by the Munchen architecture, suggesting a symbolic building that pleased both 
+            aesthetically and functionally.</item>
+        <item>45.644189, 25.594438</item>
+        <item>http://www.cazari.ro/upload/unitReserv/b_brasov_brasov_oras_hotel_coroana_32353.jpg</item>
+    </string-array>
+    
+    <string-array name="ToSleepLongStreet">
+        <item>Long Street</item>
+        <item>4.0</item>
+        <item>Lunga 193</item>
+        <item>http://www.longstreethotel.ro/en/</item>
+        <item>Every room of the new Long Street Hotel, located near the tourist sights of Brasov
+            (Piata Sfatului and its famous pedestrian street, Black Church, Brasov Citadel, Black
+            Tower, Aqua Park-Aqua Paradise, Icco Clinic and Oncological Hospital, exit to the
+            Poiana Brasov, Gara and Autogara towards Bran).</item>
+        <item>45.657555, 25.580825</item>
+        <item>https://infohoteluri.blob.core.windows.net/imagini/hotel-long-street-brasov-brasov/brasov_hotel-long-street__11f2f27b-b6c7-49a4-80c3-f3d231cb6297.jpg</item>
+    </string-array>
+
+    <string-array name="ToEatOldJackBurgerHouse">
+        <item>Old Jack Burger House</item>
+        <item>4.0</item>
+        <item>Piata Sfatului 7</item>
+        <item>https://oldjackburgerhouse.ro</item>
+        <item>Let\'s eat like mobsters. We serve breakfast, burgers, ribs, steak, salads and, of
+            course, desert. Enjoy! There’s a new place in town, where the best of the best have 
+            gathered for a common purpose. A place where they get the respect they deserve. A 
+            place where YOU get a taste of the real deal. Here come the ones who always have it 
+            their way. Who know what they want and how to get it. A place where it feels like
+            family. A different kind of family.</item>
+        <item>45.642572, 25.589823</item>
+        <item>https://media-cdn.tripadvisor.com/media/photo-s/12/13/e7/f3/photo0jpg.jpg</item>
+    </string-array>
+    
+    <string-array name="ToEatPilvax">
+        <item>Pilvax</item>
+        <item>4.5</item>
+        <item>Michael Weiss 16</item>
+        <item>http://www.pilvax.ro/en/</item>
+        <item>The Pilvax Restaurant is our families dream come true. This is the reason why our 
+            goal is to create a familiar, cosy atmosphere. The name of our restaurant was inspired
+            by a well known coffee house from Budapest, the Pilvax Coffee-House, which opened its 
+            doors at the beginning of the XIXth century. Ever since, it welcomes its guests with
+            the same devoted attention. We hope, during the time spent here, You will be part of 
+            a harmonious and hospitable atmosphere, as well as of a gastronomical delight, among 
+            your family and/or friends.</item>
+        <item>45.643671, 25.590809</item>
+        <item>https://belgianfoodie.com/wp-content/uploads/2016/06/Brasov-Pilvax-Dessert-min-e1466416410574.jpg</item>
+    </string-array>
+    
+    <string-array name="ToEatTheHockeyPub">
+        <item>The Hockey Pub</item>
+        <item>4.5</item>
+        <item>Nicolae Balcescu 12</item>
+        <item>http://www.thehockeypub.ro/</item>
+        <item>All you need from a pub. Great atmosphere, good food, big selection of drinks.
+            Ideallylocated in the center of the city, friendly staff, plenty of room and several 
+            TVs toenjoy a game. The beverage selection is quite extensive and reasonably priced. 
+            And mostof all, it has an unique touch, with all the hockey memorabilia which sets it 
+            apart from most other places.</item>
+        <item>45.641573, 25.592210</item>
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPSYhv14Vhyt6de49ZFGK11d_OH28_YLguf4OZAXO8N8odJhdw</item>
+    </string-array>
+    
+    <string-array name="ToEatGott">
+        <item>Gott</item>
+        <item>4.5</item>
+        <item>Gott Johann</item>
+        <item>http://hotelgott.ro/ro/restaurant-italian-brasov.html</item>
+        <item>No description</item>
+        <item>45.641302, 25.589797</item>
+        <item>https://media-cdn.tripadvisor.com/media/photo-o/02/cb/6a/06/gott-pub.jpg</item>
+    </string-array>
+    
+    <string-array name="ToEatSimone">
+        <item>Simone</item>
+        <item>4.5</item>
+        <item>Politehnicii 6</item>
+        <item>No website</item>
+        <item>Situated right in the heart of town, but quite far from the urban noise of the main
+            road, we would present our Bistro as an oasis. Our kitchen has its urban type, is
+            multicultural, young and fresh. Our homemade plates are prepared on site in respect and
+            in harmony with the seasons, with priority on the local products and inspiration from
+            all cultures around the world. Thus, our food here is prepared with fruit and vegetables
+            gathered daily at the market on the day. During the day you can give peace and rest to
+            your mind's eyes, while during the weekend you can dance the night away at our coolest parties. </item>
+        <item>45.643441, 25.596127</item>
+        <item>https://media-cdn.tripadvisor.com/media/photo-s/0d/d4/80/03/ruben-sandwich.jpg</item>
+    </string-array>
+
+    <string-array name="ToEatTerroirsBoutiqueDuVin">
+        <item>Terroirs Boutique du Vin</item>
+        <item>4.5</item>
+        <item>Postavarului 2</item>
+        <item>http://terroirs.ro/</item>
+        <item>Wine boutique and bar with a selection of international meals. Non smoking, kids
+            are welcomed.More than 400 wines from all over the world.</item>
+        <item>45.641940, 25.590976</item>
+        <item>https://3so0ss2mrjqz30wj9q48we8j-wpengine.netdna-ssl.com/brasov/wp-content/uploads/sites/6/2017/04/Terroirs-Boutique-du-Vin2.jpg</item>
+    </string-array>
+
+    <string-array name="ToEatLaCeaun">
+        <item>La Ceaun</item>
+        <item>4.5</item>
+        <item>Piata Sfatului 11 - 12</item>
+        <item>https://laceaun.com/</item>
+        <item>Small traditional restaurant serving mainly soups and stews, cooked fresh every day 
+            with local ingredients</item>
+        <item>45.642210, 25.589745</item>
+        <item>https://media-cdn.tripadvisor.com/media/photo-s/0d/d5/97/5c/ciorba-de-fasole-cu-ciolan.jpg</item>
+    </string-array>
+    
+    <string-array name="ToEatSergiana">
+        <item>Sergiana</item>
+        <item>4.5</item>
+        <item>Muresenilor 28</item>
+        <item>https://www.sergianagrup.ro/restaurante/restauranant-sergia</item>
+        <item>Sergiana Group encompasses a farm and a livestock complex in the vicinity of Brasov, 
+            a network of 54 stores with its own distribution system, as well as the best restaurants
+            in Brasov, and an event center - Sergiana Center. Everything built on a desire to offer
+            customers quality food and Romanian products - perfectly controlled, from their basic
+            ingredients to the way they’re sold in shops.</item>
+        <item>45.645418, 25.589804</item>
+        <item>https://www.brasovtour.com/pictures/restaurant-sergiana/zA6425Az56_sergiana8.jpg</item>
+    </string-array>
+    
+    <string-array name="ToEatRawdia">
+        <item>Rawdia</item>
+        <item>4.7</item>
+        <item>Apollonia Hirscher 7</item>
+        <item>http://rawdia-brasov.ro</item>
+        <item>Love, the rest are ingredients</item>
+        <item>45.640589, 25.590144</item>
+        <item>https://scontent-frx5-1.cdninstagram.com/vp/dc3d279a5bc1da254eb6fb02fc036a4c/5B28BC7D/t51.2885-15/e35/28427723_539397909765797_3517850821293244416_n.jpg</item>
+    </string-array>
+    
+    <string-array name="ToVisitBlackChurch">
+        <item>The Black Church</item>
+        <item>4.5</item>
+        <item>Yard of Johannes Honterus 2</item>
+        <item>Biserica Neagră or Black Church (Romanian: Biserica Neagră) is a church in Brașov, a
+            city in south-eastern Transylvania, Romania. It was built by the German community of the
+            city and stands as the main Gothic style monument in the country, as well as being the
+            largest and one of the most important Lutheran (Evangelical Church of Augustan
+            Confession in Romania) places of worship in the region.</item>
+        <item>45.641113, 25.587777</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Biserica_Neagra%2C_Brasov%2C_Romania.jpg/1200px-Biserica_Neagra%2C_Brasov%2C_Romania.jpg</item>
+    </string-array>
+    
+    <string-array name="ToVisitPelesCastle">
+        <item>Peles Castle</item>
+        <item>4.7</item>
+        <item>Aleea Peleșului 2, Sinaia</item>
+        <item>Peleș Castle (Romanian: Castelul Peleș is a Neo-Renaissance castle in the Carpathian 
+            Mountains, near Sinaia, in Prahova County, Romania, on an existing medieval route 
+            linking Transylvania and Wallachia, built between 1873 and 1914. Its inauguration was 
+            held in 1883. It was constructed for King Carol I.</item>
+        <item>45.360108, 25.542587</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Castelul_Peles%2C_Sinaia_-_Vedere_panoramica.jpg/1200px-Castelul_Peles%2C_Sinaia_-_Vedere_panoramica.jpg</item>
+    </string-array>
+    
+    <string-array name="ToVisitBranCastle">
+        <item>Bran Castle</item>
+        <item>4.4</item>
+        <item>General Traian Moșoiu 24, Bran</item>
+        <item>Bran Castle (Romanian: CastelulBran), situated near Bran and in the immediate vicinity
+            of Brașov, is a national monument and landmark in Romania. The fortress is situated on
+            the border between Transylvania and Wallachia.The castle is now a museum dedicated to 
+            displaying art and furniture collected by Queen Maria. Tourists can see the interior on 
+            their own or by a guided tour. At the bottom of the hill is a small open-air museum park
+            exhibiting traditional Romanian peasant structures (cottages, barns, etc.) from across 
+            the country.</item>
+        <item>45.515158, 25.367121</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/aa/Castelul_Bran.jpg</item>
+    </string-array>
+    
+    <string-array name="ToVisitNarrowStreet">
+        <item>Narrow Street</item>
+        <item>No rating</item>
+        <item>Strada Sforii</item>
+        <item>Heading into Brasov through Poarta Schei, the third street on your right is Strada
+            Sforii, allegedly the narrowest street in Europe. It dates from the 18th century and,
+            less than a metre wide, is perhaps the only street in Romania where you can touch both
+            sides with your hands at the same time.</item>
+        <item>45.639837, 25.588505</item>
+        <item>https://i.pinimg.com/236x/94/40/88/944088ead461d52a9e8268a38a4bc1a4.jpg</item>
+    </string-array>
+
+    <string-array name="ToVisitParcCentral">
+        <item>Parc Central</item>
+        <item>4.4</item>
+        <item>Nicolae Iorga</item>
+        <item>Brasov is blessed with a large, well-tended park in the very heart of the city. In
+            summer, when the flowers are in full bloom it really is a picture postcard kind of place.
+            There is a good children’s playground, complete with bouncy slides and bouncy castles,
+            there is an area where old men get together for serious games of chess. There are two
+            buildings of note on the edge of the park, both masterpieces which date to the end of
+            the 19th century, when the Hungarians ruled these lands. </item>
+        <item>45.646124, 25.591781</item>
+        <item>http://virtual-tourist.ro/images/parcul_central/parcul_Nicolae_Titulescu_brasov.jpg</item>
+    </string-array>
+
+    <string-array name="ToVisitFirstRomanianSchool">
+        <item>First Romanian School</item>
+        <item>4.7</item>
+        <item>Piata Unirii 2 - 3</item>
+        <item>Once upon a time was a Romanian school where young people first learn to become 
+            notaries, teachers and priests. The beginnings of the school could be somewhere in the 
+            XIth – XIIth centuries. A proof is a manual of 700 pages called “Omiliar” a book about 
+            virtues, a sign that above all, the school teaches you to be human. Certainly, the 
+            school existed there in 1399, because that year, Pope Boniface speaks “about followers 
+            (students) from Schei Braşov, who were taught by pseudo teachers”.</item>
+        <item>45.636112, 25.581169</item>
+        <item>http://cyd.ro/wp-content/uploads/2015/03/prima-scoala-romaneasca-12.jpg</item>
+    </string-array>
+    
+    <string-array name="ToVisitCatherineGate">
+        <item>Catherines Gate</item>
+        <item>4.6</item>
+        <item>Enter from Poarta Schei</item>
+        <item>Catherine\'s Gate (Romanian: Poarta Ecaterinei) in Braşov, Romania, was built by the
+            Tailors’ Guild, in 1559 for defensive purposes instead of an old gate destroyed by the 
+            flood in 1526. It is named after St. Catherine's Monastery that was situated here in 
+            former times. It is the only original city gate to have survived from medieval times. 
+            In fact the central tower is only a part of the original gate; documents talk about the
+            existence of a wooden structure which was demolished in 1827. The original structure can
+            be seen at the Weaver's Bastion where the large model of Braşov in 1600 is displayed.</item>
+        <item>45.639713, 25.586080</item>
+        <item>http://www.zilesinopti.ro/media/b67926fcafde264553101351e648294e.jpg/resize?w=750</item>
+    </string-array>
+    
+    <string-array name="ToVisitBlackAndWhiteTowers">
+        <item>White &amp; Black Towers</item>
+        <item>4.5</item>
+        <item>Little hike from Dupa Ziduri </item>
+        <item>Two small towers keep watch over old Brasov from the Warthe hill on the northern side
+            of the city: the so-called White and Black towers. While not identical (the white tower,
+            above, is much larger) - were nevertheless built at the same time, late in the 15th century.</item>
+        <item>45.643144, 25.586480</item>
+        <item>http://www.zilesinopti.ro/media/71440051057bc38868800b2.50559607.jpg/resize?w=750</item>
+    </string-array>
+
+    <string-array name="ToDoHikingBucegi">
+        <item>Bucegi Mountains (Omu Peak – 2505m)</item>
+        <item>http://muntii-bucegi.ro/en/acces-way/</item>
+        <item>The Bucegi mountains own their fame to the spectacular landscapes and the accessibility 
+            of their routes. Well known for hiking, winter sports and climbing, these mountains are 
+            high compact blocks, edged by steep slopes which dominate the Prahova Valley (Busteni, 
+            Sinaia, Predeal) a popular land for its mountain resorts. At a higher elevation is the 
+            Bucegi Plateau, where wind and rain have turned the rocks into spectacular figures such 
+            as the Sphinx, a rock with the shape of a human-like face, with a lingering and enigmatic 
+            smile and Babele( the old ladies).</item>
+        <item>http://infotravelguide.ro/wp-content/uploads/2011/03/varfulomu3.jpg</item>
+    </string-array>
+    
+    <string-array name="ToDoHikingPostavaru">
+        <item>Postavaru Mountain (Postavaru Peak – 1799m)</item>
+        <item>http://www.discoverpoiana.ro/en/drumetii-montane/</item>
+        <item>It is not very high, thus not as spectacular as other mountains in the Carpathians, 
+            but it has some good ski slopes and beautiful scenery. Postavaru Mountain is ideal for 
+            winter sports with 150 hectares of specific equipment and facilities, ski tracks of 
+            various degrees of difficulty, an artificial snow track provided with night lighting 
+            and a skating rink. The name of the resort at the foot of Postavaru is Poiana Brasov 
+            and it is considered the best skiing resort in Romania.</item>
+        <item>http://www.catalinenache.eu/wp-content/uploads/2009/09/varful-postavarul-1799m-altitudine-fotograf-catalin-enache-03.jpg</item>
+    </string-array>
+    
+    <string-array name="ToDoHikingPiatraMare">
+        <item>Piatra Mare Massif (Piatra Mare Peak – 1844m)</item>
+        <item>http://www.wandermap.net/ro/route/2868435-dambu-morii-drumul-familiar-cabana-piatra-mare-vf-piatra-mare/#/z13/45.5637034,25.6760788/terrain</item>
+        <item>Despite providing fewer tourist facilities (chalets, hotels, cable car) than its
+            neighbor, the Postavaru Mountain, Piatra Mare (106 sq km) lasts in the memory of generations
+            of tourists for its wonderful landscapes. Among its attractions are the huge, spectacular,
+            yet difficult to climb steep Eastern slopes, the wild Sapte Scari (Seven Steps) Canyon,
+            visited by scores of tourists from spring through autumn, the Tamina Waterfall. The Sapte
+            Scari Brook falls into Sipoaia basin at a 60 m level difference over a small distance of
+            160 m. In this area, the valley sides are almost vertical, very close to each other,
+            and polished by the falling water.</item>
+        <item>http://4.bp.blogspot.com/-eJMd9fxS5a4/VXwZgXuZiKI/AAAAAAAAB0g/D3vA6wXCnq0/s1600/_DSC9027_stitch.jpg</item>
+    </string-array>
+
+    <string-array name="ToDoHikingPiatraCraiului">
+        <item>Piatra Craiului Mountain (La Om Peak – 2237m)</item>
+        <item>https://www.uncover-romania.com/attractions/nature/piatra-craiului-national-park/</item>
+        <item>Piatra Craiului-The Royal Rock-is probably Romania’s most loved mountain especially by 
+            hikers and nature lovers. It is a beautiful limestone ridge from where you have superb
+            views over the surrounding country. The shining glow of this huge white limestone ridge 
+            can be seen from afar and it is probably the source of its unusual name.</item>
+        <item>http://muntii-nostri.ro/wp-content/uploads/2014/09/2MN_img_Creasta-Nordica-a-Pietrei-Craiului-si-Orga-Mare-20-1024x685.jpg</item>
+    </string-array>
+    
+    <string-array name="ToDoHikingCiucas">
+        <item>Ciucas Mountains (Ciucas Peak – 1954m)</item>
+        <item>http://muntii-nostri.ro/en/munte/muntii-ciucas-2/</item>
+        <item>Ciucas Mountains, easily accessible mountains, lie on a secondary road to Brasov,
+            providing a fascinating ridge dotted with landforms of exceptional beauty, fashioned
+            in limestone and conglomerates. These mountains present an extraordinary rich and varied
+            relief, rarely encountered in the Romanian Carpathians. The upper part reveals a unique
+            association of towers, needles, columns, mushrooms, bare rocks and sphinx-like forms.</item>
+        <item>http://static3.evz.ro/image-original-605-388/cache/2016-09/muntii-ciucas-465x390.jpg</item>
+    </string-array>
+
+    <string-array name="ToDoHikingFagaras">
+        <item>Fagaras Mountains (Moldoveanu Peak – 2545m)</item>
+        <item>https://travelguideromania.com/fagaras-mountains-the-highest-mountains-in-romania/</item>
+        <item>Also known as the “Transylvanian Alps”, as a 19th century traveler called them, the 
+            Fagaras are truly the highest, largest, widest, rockiest and most impressive mountain 
+            range in Romania, whether we are talking about extreme skiers, rock climbers, regular 
+            mountaineers or people interested in a nice and quiet place in the middle of the nature.</item>
+        <item>http://bloguldecalatorii.ro/wp-content/uploads/2015/11/DSC07982-1080x720.jpg</item>
+    </string-array>
+    
+    <string-array name="ToDoParcAventura">
+        <item>Parc Aventura</item>
+        <item>4.7</item>
+        <item>Paltinului 16 </item>
+        <item>http://www.parc-aventura.ro/en/</item>
+        <item>The adventure park is an outdoor sports and leisure activity, a very good way to 
+            spend your free time with your family and friends.</item>
+        <item>45.614268, 25.637492</item>
+        <item>http://www.parc-aventura.ro/images/parc-aventura2.png</item>
+    </string-array>
+    
+    <string-array name="ToDoAquaticParadise">
+        <item>Aquatic Paradise</item>
+        <item>4.4</item>
+        <item>B-dul Grivitei, 2F-2G</item>
+        <item>http://www.paradisulacvatic.ro/en/</item>
+        <item>Aquatic Paradise opened in July 2007 and meets all requirements for a genuine health 
+            and leisure center, as it is spread over a covered area of 12000 sqm and another 12000 
+            sqm open air for the warm season.</item>
+        <item>45.6733739, 25.586012</item>
+        <item>http://www.paradisulacvatic.ro/files/gallery/galerie-foto-paradisul-acvatic/im_10015.jpeg</item>
+    </string-array>
+    
+    <string-array name="ToDoEscapeRooms">
+        <item>Escape Rooms</item>
+        <item>4.3</item>
+        <item>Castelului 52</item>
+        <item>http://escaperoomsbrasov.com/?lang=en</item>
+        <item>First you book a room… \n …then you come to our location… \n
+			…we lock you down… \n …and you have 60 minutes to escape. If you can😉.</item>
+        <item>45.640041, 25.590796</item>
+        <item>http://img.escaperoomsbrasov.com/2015/03/logo-lacat-3.jpg</item>
+    </string-array>
+</resources>
